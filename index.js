@@ -370,6 +370,7 @@ genreBox.forEach(genre =>{
                 if(page * perPage < array.length){ 
                     const more = document.createElement("button");
                     more.innerText = "More";
+                    more.classList.add("more-btn")
                     more.addEventListener("click", () => {
                         page++;
                         filterByGenre()

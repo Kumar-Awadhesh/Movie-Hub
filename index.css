@@ -244,3 +244,51 @@ a{
 .button:hover{
     background-color: lightskyblue;
 }
+
+.more-btn{
+    width: 90px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+    font-size: large;
+    cursor: pointer;
+}
+
+.more-btn:hover{
+    background-color: lightskyblue;
+    
+}
+
+
+/* <------------------------------------------------------------Mobile Version Display---------------------------------------------------------> */
+
+
+@media (max-width: 720px){
+    #movieContainer{
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+}
+
+@media (max-width: 480px){
+    #movieContainer{
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+}
+
+@media (max-width: 1020px){
+    #movieContainer{
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+}
+
+@media (max-width: 1500px){
+    #movieContainer{
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+}
