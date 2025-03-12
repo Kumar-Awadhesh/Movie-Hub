@@ -265,30 +265,82 @@ a{
 /* <------------------------------------------------------------Mobile Version Display---------------------------------------------------------> */
 
 
-@media (max-width: 720px){
+@media (max-width: 1080px) and (min-width: 721px){
     #movieContainer{
         grid-template-columns: repeat(3, 1fr);
-    
+    }
+    .genreContainer{
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        display: none;
+        background-color:lightblue;
+        margin-left: 35%;
+        margin-top: 50%;
+        text-align: left;
+        padding: 10px;
+        color: black;
+        line-height: 1.5;
     }
 }
 
-@media (max-width: 480px){
+@media (max-width: 720px) and (min-width: 480px){
     #movieContainer{
         grid-template-columns: repeat(2, 1fr);
-    
+    }
+    .genreContainer{
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        display: none;
+        background-color:lightblue;
+        margin-left: 36%;
+        margin-top: 72%;
+        text-align: left;
+        padding: 10px;
+        color: black;
+        line-height: 1.5;
+    }
+    .container{
+        width: 480px;
+        margin: auto;
+        min-height: 700px;
+        font-family: sans-serif;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,230,241,1) 0%, rgba(145,192,241,1) 45.5% );
+        padding-bottom: 30px;
     }
 }
 
-@media (max-width: 1020px){
+@media (max-width: 481px) and (min-width: 240px){
+    #movieContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .genreContainer{
+        width: 190px;
+        height: 300px;
+        position: absolute;
+        display: none;
+        background-color:lightblue;
+        margin-left: 44%;
+        margin-top: 77%;
+        text-align: left;
+        padding: 10px;
+        color: black;
+        line-height: 1.5;
+    }
+    .container{
+        width: 450px;
+        margin: auto;
+        min-height: 700px;
+        font-family: sans-serif;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,230,241,1) 0%, rgba(145,192,241,1) 45.5% );
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 1500px) and (min-width: 1081px){
     #movieContainer{
         grid-template-columns: repeat(3, 1fr);
-    
-    }
-}
-
-@media (max-width: 1500px){
-    #movieContainer{
-        grid-template-columns: repeat(2, 1fr);
     
     }
 }
