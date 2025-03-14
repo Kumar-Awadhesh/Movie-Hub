@@ -384,3 +384,21 @@ a{
     margin-left: 20%;
     color: skyblue;
 }
+
+@media (max-width: 481px) and (min-width: 240px){
+    .streamContainer .stream{
+        width: 240px;  
+    }
+    .banner{
+        height: 240px;
+    }
+}
+
+@media (max-width: 720px) and (min-width: 480px){
+    .streamContainer .stream{
+        width: 480px;  
+    }
+    .banner{
+        height: 240px;
+    }
+}
