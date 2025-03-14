@@ -364,7 +364,7 @@ a{
 
 .left-slide{
     width: 450px;
-    height: 750px;
+    height: 800px;
     background-color: rgb(95, 95, 95);
     position: absolute;
     margin-left: 66%;
@@ -391,6 +391,9 @@ a{
     }
     .banner{
         height: 240px;
+    }
+    .left-slide{
+        display: none;
     }
 }
 
