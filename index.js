@@ -1,4 +1,66 @@
 //--------------------------------------------------------Data Fetching Section-------------------------------------------------------------------->
+const movieUrl = [
+    {
+        "id": 113,
+        "url": "https://mkvking.online/captain-america-brave-new-world/"
+    },
+    {
+        "id": 101,
+        "url": ""
+    },
+    {
+        "id": 102,
+        "url": ""
+    },
+    {
+        "id": 103,
+        "url": "https://mkvking.online/transformers-one-2024/"
+    },
+    {
+        "id": 104,
+        "url": "https://mkvking.online/alien-romulus-2024/"
+    },
+    {
+        "id": 105,
+        "url": "https://mkvking.online/hellboy-the-crooked-man-2024/"
+    },
+    {
+        "id": 106,
+        "url": "https://mkvking.online/moana-2-2024/"
+    },
+    {
+        "id": 107,
+        "url": ""
+    },
+    {
+        "id": 108,
+        "url": "https://mkvking.online/deadpool-wolverine-2024/"
+    },
+    {
+        "id": 109,
+        "url": "https://mkvking.online/the-wild-robot-2024/"
+    },
+    {
+        "id": 110,
+        "url": "https://mkvking.online/mufasa-the-lion-king-2025/"
+    },
+    {
+        "id": 89,
+        "url": "https://mkvking.online/venom-the-last-dance-2024/"
+    },
+    {
+        "id": 1,
+        "url": "https://mkvking.online/the-shawshank-redemption-1994-1/"
+    },
+    {
+        "id": 2,
+        "url": "https://mkvking.online/the-godfather-1972-720p-1080p-2160p/"
+    }
+]
+
+// let iframe = document.getElementById("iframe");
+// iframe.src = movieUrl[0].url;
+// console.log(iframe.src)
 
 //initializise the global vaiable of current page and per page.
 let page = 1;
@@ -77,8 +139,18 @@ function movieData(movies){
         button.textContent = "WATCH"
 
         button.addEventListener("click", function(){
-
+            for(let i = 0; i < movieUrl.length; i++){
+                if(movieUrl[i].id === movie.id){
+                    let url = movieUrl[i].url;
+                    localStorage.setItem("link", url);
+                }
+                // else{
+                //     localStorage.removeItem("link");
+                // }
+            }
+            window.open("movies.html");
         })
+        localStorage.removeItem("link");
 
         movieContent.append(image, title, rating, genre, button);
         movieContainer.append(movieContent)
@@ -388,3 +460,6 @@ genreBox.forEach(genre =>{
     })
 })
 
+
+
+// <------------------------------------------------------------------Streaming Section--------------------------------------------------------->

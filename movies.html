@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Movies</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main id="container" class="streamContainer">
+        <div class="banner">
+            <a href="index.html"><img class="roler" src="images/movie_role.png" alt="movie role"></a>
+            <a href="index.html"><h1 class="website">Movie Hub</h1></a>
+        </div>
+        <div id="stream" class="stream">
+            <iframe id="iframe" src="" 
+             width="1500px" height="750px" scrolling="no" allowfullscreen frameborder="0">
+            </iframe>
+            <div class="left-slide"></div>
+        </div>
+    </main>
+    <script>
+    
+        let iframe = document.getElementById("iframe");
+        let getUrl = localStorage.getItem("link");
+        if(getUrl !== null && getUrl.length !== 0){
+            iframe.src = getUrl;
+        }
+        else{
+            let stream = document.getElementById("stream");
+            let tag = document.createElement("h2");
+            tag.classList.add("tag")
+            tag.innerText = "Streaming link is not live yet, Come Back Later.....!";
+            stream.append(tag);
+        }
+        
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
