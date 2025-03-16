@@ -142,7 +142,6 @@ a{
     margin: auto;
     margin-bottom: 20px;
     text-align: center;
-    border: 1px solid;
     align-content: center;
     background-color: blue;
 }
@@ -394,6 +393,43 @@ a{
     }
     .left-slide{
         display: none;
+    }
+    .navbar>div{
+        display: flex;
+        margin: auto;
+        justify-content: left;
+        gap: 100px;
+        color: white;
+        align-items: center;
+    }
+    .genreContainer{
+        width: 190px;
+        height: 300px;
+        position: absolute;
+        display: none;
+        background-color:lightblue;
+        margin-left: 37%;
+        margin-top: 82%;
+        text-align: left;
+        padding: 10px;
+        color: black;
+        line-height: 1.5;
+    }
+    .website{
+        font-size: 55px;
+        margin-top: 20px;
+        text-wrap: nowrap;
+        border-bottom: 5px solid goldenrod;
+        border-left: 5px solid goldenrod;
+        border-radius: 50px;
+        
+    }
+    .roler{
+        width: 60px;
+        height: 60px;
+        border: 2px solid goldenrod;
+        border-radius: 50%;
+        animation: rotate 5s linear infinite;
     }
 }
 

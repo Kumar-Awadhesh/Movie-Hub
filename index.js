@@ -55,12 +55,37 @@ const movieUrl = [
     {
         "id": 2,
         "url": "https://mkvking.online/the-godfather-1972-720p-1080p-2160p/"
+    },
+    {
+        "id": 120,
+        "url": "https://mkvking.online/avatar-the-way-of-water-2022-1/"
+    },
+    {
+        "id": 114,
+        "url": "https://mkvking.online/batman-v-superman-dawn-of-justice-2016-dual-audio/"
+    },
+    {
+        "id": 115,
+        "url": "https://mkvking.online/iron-man-3-2013/"
+    },
+    {
+        "id": 116,
+        "url": "https://mkvking.online/captain-america-civil-war-2016/"
+    },
+    {
+        "id": 117,
+        "url": "https://mkvking.online/justice-league-2017/"
+    },
+    {
+        "id": 118,
+        "url": "https://mkvking.online/man-of-steel-2013/"
+    },
+    {
+        "id": 119,
+        "url": "https://mkvking.online/hellboy-2019/"
     }
 ]
 
-// let iframe = document.getElementById("iframe");
-// iframe.src = movieUrl[0].url;
-// console.log(iframe.src)
 
 //initializise the global vaiable of current page and per page.
 let page = 1;
