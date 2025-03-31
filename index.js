@@ -169,9 +169,6 @@ function movieData(movies){
                     let url = movieUrl[i].url;
                     localStorage.setItem("link", url);
                 }
-                // else{
-                //     localStorage.removeItem("link");
-                // }
             }
             window.open("movies.html");
         })
@@ -300,8 +297,16 @@ document.getElementById("form").addEventListener("submit", (event) =>{
             button.textContent = "WATCH"
 
             button.addEventListener("click", function(){
-
+                for(let i = 0; i < movieUrl.length; i++){
+                    if(movieUrl[i].id === movie.id){
+                        let url = movieUrl[i].url;
+                        localStorage.setItem("link", url);
+                    }
+                }
+                window.open("movies.html");
             })
+            localStorage.removeItem("link");
+           
 
             //append the all data to searched movie container.
             searchedMovieContainer.append(image, title, rating, genre, button);
@@ -450,8 +455,15 @@ genreBox.forEach(genre =>{
                     button.textContent = "WATCH"
 
                     button.addEventListener("click", function(){
-
+                        for(let i = 0; i < movieUrl.length; i++){
+                            if(movieUrl[i].id === movie.id){
+                                let url = movieUrl[i].url;
+                                localStorage.setItem("link", url);
+                            }
+                        }
+                        window.open("movies.html");
                     })
+                    localStorage.removeItem("link");
 
 
                     //append the all data to searched movie container.

@@ -328,13 +328,23 @@ a{
         line-height: 1.5;
     }
     .container{
-        width: 450px;
+        width: 384px;
         margin: auto;
         min-height: 700px;
         font-family: sans-serif;
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,230,241,1) 0%, rgba(145,192,241,1) 45.5% );
         padding-bottom: 30px;
     }
+    .searchDiv{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        text-align: left;
+        align-items: end;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
 }
 
 @media (max-width: 1500px) and (min-width: 1081px){
@@ -389,7 +399,7 @@ a{
         width: 240px;  
     }
     .banner{
-        height: 240px;
+        height: 230px;
     }
     .left-slide{
         display: none;
@@ -398,25 +408,25 @@ a{
         display: flex;
         margin: auto;
         justify-content: left;
-        gap: 100px;
+        gap: 70px;
         color: white;
         align-items: center;
     }
     .genreContainer{
-        width: 190px;
+        width: 200px;
         height: 300px;
         position: absolute;
         display: none;
         background-color:lightblue;
-        margin-left: 37%;
-        margin-top: 82%;
+        margin-left: 30%;
+        margin-top: 90%;
         text-align: left;
         padding: 10px;
         color: black;
         line-height: 1.5;
     }
     .website{
-        font-size: 55px;
+        font-size: 50px;
         margin-top: 20px;
         text-wrap: nowrap;
         border-bottom: 5px solid goldenrod;
@@ -425,8 +435,8 @@ a{
         
     }
     .roler{
-        width: 60px;
-        height: 60px;
+        width: 55px;
+        height: 55px;
         border: 2px solid goldenrod;
         border-radius: 50%;
         animation: rotate 5s linear infinite;
