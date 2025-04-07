@@ -45,6 +45,10 @@ const movieUrl = [
         "url": "https://mkvking.online/mufasa-the-lion-king-2025/"
     },
     {
+        "id": 112,
+        "url": "https://mkvking.online/godzilla-x-kong-the-new-empire-bluray/"
+    },
+    {
         "id": 89,
         "url": "https://mkvking.online/venom-the-last-dance-2024/"
     },
@@ -463,9 +467,7 @@ genreBox.forEach(genre =>{
                         }
                         window.open("movies.html");
                     })
-                    localStorage.removeItem("link");
-
-
+                    
                     //append the all data to searched movie container.
                     genreMovieContainer.append(image, title, rating, genre, button);
 
