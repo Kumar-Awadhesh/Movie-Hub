@@ -61,6 +61,30 @@ const movieUrl = [
         "url": "https://mkvking.online/the-godfather-1972-720p-1080p-2160p/"
     },
     {
+        "id": 3,
+        "url": "https://mkvking.online/the-dark-knight-2008/"
+    },
+    {
+        "id": 4,
+        "url": "https://mkvking.online/pulp-fiction-1994/"
+    },
+    {
+        "id": 5,
+        "url": "https://mkvking.online/the-lord-of-the-rings-the-return-of-the-king-2003-1/"
+    },
+    {
+        "id": 6,
+        "url": "https://mkvking.online/the-good-the-bad-and-the-ugly-1966/"
+    },
+    {
+        "id": 7,
+        "url": "https://mkvking.online/fight-club-1999-1/"
+    },
+    {
+        "id": 8,
+        "url": "https://mkvking.online/the-lord-of-the-rings-the-fellowship-of-the-ring-2001/"
+    },
+    {
         "id": 120,
         "url": "https://mkvking.online/avatar-the-way-of-water-2022-1/"
     },
