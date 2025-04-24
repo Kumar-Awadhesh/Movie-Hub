@@ -2,7 +2,7 @@
 const movieUrl = [
     {
         "id": 113,
-        "url": "https://mkvking.online/captain-america-brave-new-world/"
+        "url": "https://a.mkvking.homes/captain-america-brave-new-world/"
     },
     {
         "id": 101,
@@ -14,19 +14,19 @@ const movieUrl = [
     },
     {
         "id": 103,
-        "url": "https://mkvking.online/transformers-one-2024/"
+        "url": "https://a.mkvking.homes/transformers-one-2024/"
     },
     {
         "id": 104,
-        "url": "https://mkvking.online/alien-romulus-2024/"
+        "url": "https://a.mkvking.homes/alien-romulus-2024/"
     },
     {
         "id": 105,
-        "url": "https://mkvking.online/hellboy-the-crooked-man-2024/"
+        "url": "https://a.mkvking.homes/hellboy-the-crooked-man-2024/"
     },
     {
         "id": 106,
-        "url": "https://mkvking.online/moana-2-2024/"
+        "url": "https://a.mkvking.homes/moana-2-2024/"
     },
     {
         "id": 107,
@@ -34,83 +34,83 @@ const movieUrl = [
     },
     {
         "id": 108,
-        "url": "https://mkvking.online/deadpool-wolverine-2024/"
+        "url": "https://a.mkvking.homes/deadpool-wolverine-2024/"
     },
     {
         "id": 109,
-        "url": "https://mkvking.online/the-wild-robot-2024/"
+        "url": "https://a.mkvking.homes/the-wild-robot-2024/"
     },
     {
         "id": 110,
-        "url": "https://mkvking.online/mufasa-the-lion-king-2025/"
+        "url": "https://a.mkvking.homes/mufasa-the-lion-king-2025/"
     },
     {
         "id": 112,
-        "url": "https://mkvking.online/godzilla-x-kong-the-new-empire-bluray/"
+        "url": "https://a.mkvking.homes/godzilla-x-kong-the-new-empire-bluray/"
     },
     {
         "id": 89,
-        "url": "https://mkvking.online/venom-the-last-dance-2024/"
+        "url": "https://a.mkvking.homes/venom-the-last-dance-2024/"
     },
     {
         "id": 1,
-        "url": "https://mkvking.online/the-shawshank-redemption-1994-1/"
+        "url": "https://a.mkvking.homes/the-shawshank-redemption-1994-1/"
     },
     {
         "id": 2,
-        "url": "https://mkvking.online/the-godfather-1972-720p-1080p-2160p/"
+        "url": "https://a.mkvking.homes/the-godfather-1972-720p-1080p-2160p/"
     },
     {
         "id": 3,
-        "url": "https://mkvking.online/the-dark-knight-2008/"
+        "url": "https://a.mkvking.homes/the-dark-knight-2008/"
     },
     {
         "id": 4,
-        "url": "https://mkvking.online/pulp-fiction-1994/"
+        "url": "https://a.mkvking.homes/pulp-fiction-1994/"
     },
     {
         "id": 5,
-        "url": "https://mkvking.online/the-lord-of-the-rings-the-return-of-the-king-2003-1/"
+        "url": "https://a.mkvking.homes/the-lord-of-the-rings-the-return-of-the-king-2003-1/"
     },
     {
         "id": 6,
-        "url": "https://mkvking.online/the-good-the-bad-and-the-ugly-1966/"
+        "url": "https://a.mkvking.homes/the-good-the-bad-and-the-ugly-1966/"
     },
     {
         "id": 7,
-        "url": "https://mkvking.online/fight-club-1999-1/"
+        "url": "https://a.mkvking.homes/fight-club-1999-1/"
     },
     {
         "id": 8,
-        "url": "https://mkvking.online/the-lord-of-the-rings-the-fellowship-of-the-ring-2001/"
+        "url": "https://a.mkvking.homes/the-lord-of-the-rings-the-fellowship-of-the-ring-2001/"
     },
     {
         "id": 120,
-        "url": "https://mkvking.online/avatar-the-way-of-water-2022-1/"
+        "url": "https://a.mkvking.homes/avatar-the-way-of-water-2022-1/"
     },
     {
         "id": 114,
-        "url": "https://mkvking.online/batman-v-superman-dawn-of-justice-2016-dual-audio/"
+        "url": "https://a.mkvking.homes/batman-v-superman-dawn-of-justice-2016-dual-audio/"
     },
     {
         "id": 115,
-        "url": "https://mkvking.online/iron-man-3-2013/"
+        "url": "https://a.mkvking.homes/iron-man-3-2013/"
     },
     {
         "id": 116,
-        "url": "https://mkvking.online/captain-america-civil-war-2016/"
+        "url": "https://a.mkvking.homes/captain-america-civil-war-2016/"
     },
     {
         "id": 117,
-        "url": "https://mkvking.online/justice-league-2017/"
+        "url": "https://a.mkvking.homes/justice-league-2017/"
     },
     {
         "id": 118,
-        "url": "https://mkvking.online/man-of-steel-2013/"
+        "url": "https://a.mkvking.homes/man-of-steel-2013/"
     },
     {
         "id": 119,
-        "url": "https://mkvking.online/hellboy-2019/"
+        "url": "https://a.mkvking.homes/hellboy-2019/"
     }
 ]
 
