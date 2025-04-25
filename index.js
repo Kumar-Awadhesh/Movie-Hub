@@ -1,6 +1,18 @@
 //--------------------------------------------------------Data Fetching Section-------------------------------------------------------------------->
 const movieUrl = [
     {
+        "id": 123,
+        "url": "https://a.mkvking.homes/bullet-train-2022/"
+    }
+    {
+        "id": 122,
+        "url": "https://a.mkvking.homes/peter-pans-neverland-nightmare-2025/"
+    }
+    {
+        "id": 121,
+        "url": "https://a.mkvking.homes/ash-2025/"
+    },
+    {
         "id": 113,
         "url": "https://a.mkvking.homes/captain-america-brave-new-world/"
     },
@@ -79,7 +91,7 @@ const movieUrl = [
     {
         "id": 119,
         "url": "https://a.mkvking.homes/hellboy-2019/"
-    }
+    },
     {
         "id": 1,
         "url": "https://a.mkvking.homes/the-shawshank-redemption-1994-1/"
@@ -143,6 +155,54 @@ const movieUrl = [
     {
         "id": 16,
         "url": "https://a.mkvking.homes/saving-private-ryan-1998/"
+    },
+    {
+        "id": 17,
+        "url": "https://a.mkvking.homes/parasite-2019/"
+    },
+    {
+        "id": 18,
+        "url": "https://a.mkvking.homes/gladiator-2000/"
+    },
+    {
+        "id": 19,
+        "url": "https://a.mkvking.homes/jurassic-park-1993/"
+    },
+    {
+        "id": 20,
+        "url": "https://a.mkvking.homes/the-lion-king-2019/"
+    },
+    {
+        "id": 21,
+        "url": "https://a.mkvking.homes/blade-runner-2049-2017/"
+    },
+    {
+        "id": 22,
+        "url": "https://a.mkvking.homes/the-prestige-2006/"
+    },
+    {
+        "id": 23,
+        "url": "https://a.mkvking.homes/mad-max-fury-road-2015/"
+    },
+    {
+        "id": 24,
+        "url": "https://a.mkvking.homes/the-departed-2006/"
+    },
+    {
+        "id": 25,
+        "url": "https://a.mkvking.homes/whiplash-2014/"
+    },
+    {
+        "id": 26,
+        "url": "https://a.mkvking.homes/inglourious-basterds-2009/"
+    },
+    {
+        "id": 27,
+        "url": "https://a.mkvking.homes/alien-1979/"
+    },
+    {
+        "id": 28,
+        "url": "https://a.mkvking.homes/amelie-2001/"
     }
 ]
 
