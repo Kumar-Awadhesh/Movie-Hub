@@ -1,13 +1,21 @@
 //--------------------------------------------------------Data Fetching Section-------------------------------------------------------------------->
 const movieUrl = [
     {
+        "id": 125,
+        "url": "https://a.mkvking.homes/warlord-2025/"
+    },
+    {
+        "id": 124,
+        "url": "https://a.mkvking.homes/havoc-2025/"
+    },
+    {
         "id": 123,
         "url": "https://a.mkvking.homes/bullet-train-2022/"
-    }
+    },
     {
         "id": 122,
         "url": "https://a.mkvking.homes/peter-pans-neverland-nightmare-2025/"
-    }
+    },
     {
         "id": 121,
         "url": "https://a.mkvking.homes/ash-2025/"
