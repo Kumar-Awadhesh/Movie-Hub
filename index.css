@@ -347,13 +347,6 @@ a{
     
 }
 
-@media (max-width: 1500px) and (min-width: 1081px){
-    #movieContainer{
-        grid-template-columns: repeat(3, 1fr);
-    
-    }
-}
-
 
 /* <--------------------------------------------------------------------Streaming section---------------------------------------------------------> */
 
@@ -376,7 +369,7 @@ a{
     height: 800px;
     background-color: rgb(95, 95, 95);
     position: absolute;
-    margin-left: 66%;
+    margin-left: 70%;
 }
 
 .stream{
